@@ -1,10 +1,16 @@
+import Hero from "./components/Hero"
+import Highlights from "./components/Highlights"
+import Navbar from "./components/Navbar"
+
 function App() {
   
 
   return (
-    <>
-      <h1 className='bg-green-200 py-2 px-4'></h1>
-    </>
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
   )
 }
 
